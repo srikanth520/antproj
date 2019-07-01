@@ -13,7 +13,7 @@ public class UserController extends SimpleFormController {
 
 	public UserController()	{
 		setCommandClass(User.class);
-		setCommandName("user");
+		setCommandName("user");  #echo hellos hi
 	}
 	
 	public void setUserService(UserService userService) {
