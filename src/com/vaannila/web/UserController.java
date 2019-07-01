@@ -17,7 +17,8 @@ public class UserController extends SimpleFormController {
 	}
 	
 	public void setUserService(UserService userService) {
-		this.userService = userService;
+		
+		this.userService = userService; #test
 	}
 
 	@Override
